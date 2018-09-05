@@ -18,7 +18,7 @@ class FromViewController: UIViewController {
 
     @objc func next(_ sender: UIButton) {
         let nextVC = ToViewController()
-        present(nextVC, animated: true, completion: { print("completed") })
+        present(nextVC, animated: true, completion: { print("FromViewController#present completed") })
     }
 }
 

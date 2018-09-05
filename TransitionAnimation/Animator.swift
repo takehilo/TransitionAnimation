@@ -5,6 +5,10 @@ class Animator: NSObject, UIViewControllerAnimatedTransitioning {
         return 1.5
     }
 
+    func animationEnded(_ transitionCompleted: Bool) {
+        print("transitionCompleted: \(transitionCompleted)")
+    }
+
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard
 //            let fromVC = transitionContext.viewController(forKey: .from),
