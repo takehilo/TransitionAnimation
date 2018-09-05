@@ -26,3 +26,5 @@
   - nilでなければ、インタラクティブアニメーターの`startInteractiveTransition(_:)`を呼び出す
 - UIKitはアニメーターオブジェクトがコンテキスト遷移オブジェクトの`completeTransition(_:)`を呼び出すのを待ってから、遷移元ビューコントローラの`present(_:animated:completion:)`の完了ハンドラを呼び出す
 - 最後に、アニメーターオブジェクトの`animationEnded(_:)`が呼ばれる
+
+![simple-animation.gif](./images/simple-animation.gif)
